@@ -2943,7 +2943,7 @@ var _appDefault = parcelHelpers.interopDefault(_app);
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","./App":"2Ew96","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","react":"21dqq","./App":"2Ew96","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("985e61ec7ea53d0a");
 
@@ -27121,76 +27121,21 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _card = require("./components/Card");
 var _cardDefault = parcelHelpers.interopDefault(_card);
-const jokes = [
-    {
-        setup: "I got my daughter a fridge for her birthday.",
-        punchline: "I can't wait to see her face light up when she opens it."
-    },
-    {
-        setup: "How did the hacker escape the police?",
-        punchline: "He just ransomware!"
-    },
-    {
-        setup: "Why don't pirates travel on mountain roads?",
-        punchline: "Scurvy."
-    },
-    {
-        setup: "Why do bees stay in the hive in the winter?",
-        punchline: "Swarm."
-    },
-    {
-        setup: "What's the best thing about Switzerland?",
-        punchline: "I don't know, but the flag is a big plus!"
-    }
-];
+var _jokesDataJs = require("./jokesData.js");
+var _jokesDataJsDefault = parcelHelpers.interopDefault(_jokesDataJs);
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
-                kokot: 1,
-                setup: jokes[0].setup,
-                punchline: jokes[0].punchline
+        children: (0, _jokesDataJsDefault.default).map((joke)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
+                setup: joke.setup,
+                punchline: joke.punchline
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 31,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
-                setup: jokes[1].setup,
-                punchline: jokes[1].punchline
-            }, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 32,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
-                setup: jokes[2].setup,
-                punchline: jokes[2].punchline
-            }, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 33,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
-                setup: jokes[3].setup,
-                punchline: jokes[3].punchline
-            }, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 34,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
-                setup: jokes[4].setup,
-                punchline: jokes[4].punchline
-            }, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 35,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
+                lineNumber: 9,
+                columnNumber: 9
+            }, this))
+    }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 30,
+        lineNumber: 7,
         columnNumber: 5
     }, this);
 }
@@ -27204,7 +27149,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./components/Card":"TYRXq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}],"TYRXq":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./components/Card":"TYRXq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./jokesData.js":"koLtV"}],"TYRXq":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$779b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27419,6 +27364,32 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"f2b4807cd963c5aa":"786KC"}]},["1xC6H","8BXtR","bB7Pu"], "bB7Pu", "parcelRequire94c2")
+},{"f2b4807cd963c5aa":"786KC"}],"koLtV":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+exports.default = jokes = [
+    {
+        setup: "I got my daughter a fridge for her birthday.",
+        punchline: "I can't wait to see her face light up when she opens it."
+    },
+    {
+        setup: "How did the hacker escape the police?",
+        punchline: "He just ransomware!"
+    },
+    {
+        setup: "Why don't pirates travel on mountain roads?",
+        punchline: "Scurvy."
+    },
+    {
+        setup: "Why do bees stay in the hive in the winter?",
+        punchline: "Swarm."
+    },
+    {
+        setup: "What's the best thing about Switzerland?",
+        punchline: "I don't know, but the flag is a big plus!"
+    }
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["1xC6H","8BXtR","bB7Pu"], "bB7Pu", "parcelRequire94c2")
 
 //# sourceMappingURL=index.3d214d75.js.map
